@@ -25,6 +25,7 @@ If Pylance is arguing then just turn it off 🤷‍♂️
 }
 ```
 
+> ./main.py
 ```Python
 import JbobParser as jbp
 
@@ -42,8 +43,6 @@ parsed_json2: jbp.JsonBlock = jbp.parse_string("""
             "address": "Some Street 18",
             "phone number": "+1-212-456-7890"
         }
-        
-        // ...
     }
 }
 """)
