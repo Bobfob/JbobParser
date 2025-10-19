@@ -1,0 +1,10 @@
+{
+    "person1": {
+        "name": "Mike",
+        "age": 24,
+        "confidential data": {
+            "address": "Some Street 18",
+            "phone number": "+1-212-456-7890"
+        }
+    }
+}
