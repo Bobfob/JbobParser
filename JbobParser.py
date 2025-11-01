@@ -379,8 +379,8 @@ class Node(NodeBase):
 class StringNode(NodeBase):
     value: str
     
-    def __str__(self) -> str: return f"\"{self.value}\""
-    __repr__ = __str__
+    def __str__(self) -> str: return f"{self.value}"
+    def __repr__(self) -> str: return f"\"{self.value}\""
 
 # 1, 2.2, 3., .4
 @dataclass
