@@ -11,9 +11,8 @@ If Pylance is arguing then just turn it off 🤷‍♂️
 
 ## Example
 
+> "./test_file.json"
 ```JSON
-// "./test_file.json"
-
 {
     "person1": {
         "name": "Mike",
@@ -22,12 +21,11 @@ If Pylance is arguing then just turn it off 🤷‍♂️
             "address": "Some Street 18",
             "phone number": "+1-212-456-7890"
         }
-        
-        // ...
     }
 }
 ```
 
+> ./main.py
 ```Python
 import JbobParser as jbp
 
@@ -45,8 +43,6 @@ parsed_json2: jbp.JsonBlock = jbp.parse_string("""
             "address": "Some Street 18",
             "phone number": "+1-212-456-7890"
         }
-        
-        // ...
     }
 }
 """)
